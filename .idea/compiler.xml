@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="feign-server" />
+        <module name="eureka-server" />
+        <module name="config-server" />
+        <module name="hello-service" />
+        <module name="bye-service" />
+        <module name="gateway-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="admin-service" target="1.8" />
+      <module name="blog-service" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="eureka-client" target="1.8" />
+      <module name="gateway-service" target="1.8" />
+      <module name="monitoring-service" target="1.8" />
+      <module name="uaa-service" target="1.8" />
+      <module name="user-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="admin-service" options="-parameters" />
+      <module name="blog-service" options="-parameters" />
+      <module name="bye-service" options="-parameters" />
+      <module name="config-server" options="-parameters" />
+      <module name="eureka-client" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="feign-server" options="-parameters" />
+      <module name="gateway-server" options="-parameters" />
+      <module name="gateway-service" options="-parameters" />
+      <module name="hello-service" options="-parameters" />
+      <module name="monitoring-service" options="-parameters" />
+      <module name="uaa-service" options="-parameters" />
+      <module name="user-service" options="-parameters" />
+    </option>
+  </component>
+</project>

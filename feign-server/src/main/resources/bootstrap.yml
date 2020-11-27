@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: feign-server
+  cloud:
+    config:
+      uri: http://localhost:8769
+      fail-fast: true
+  profiles:
+    active: pro
+
+#can not write in config-server
+feign:
+  hystrix:
+    enabled: true
